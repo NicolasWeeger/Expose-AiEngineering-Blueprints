@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex Promotionsvorhaben"] 1748437292.40458 "Promotionsvorhaben.aux" "Promotionsvorhaben.bbl" "Promotionsvorhaben" 1748437293.63105 0
-  "./deepeeg.bib" 1744523351 295590 b98ff237eea6195f43bb71003b13f6c3 ""
+["bibtex Promotionsvorhaben"] 1749562842.8207 "Promotionsvorhaben.aux" "Promotionsvorhaben.bbl" "Promotionsvorhaben" 1749562844.07915 0
+  "./ML_blueprints_bibliography.bib" 1749546865.79934 81684 6093098f12807d380165296ef74580b0 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/ieeetr.bst" 1292289607 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "Promotionsvorhaben.aux" 1748437293.40804 5076 24e987a0003d45db26fb77c80884b858 "pdflatex"
+  "Promotionsvorhaben.aux" 1749562843.86422 7407 2c42b8079ac5636519e13ce46ca913c7 "pdflatex"
   (generated)
   "Promotionsvorhaben.bbl"
   "Promotionsvorhaben.blg"
   (rewritten before read)
-["pdflatex"] 1748437292.48041 "/media/nico/Daten/Dokumente/01_Forschung/Expose-AiEngineering-Blueprints/Promotionsvorhaben.tex" "Promotionsvorhaben.pdf" "Promotionsvorhaben" 1748437293.63124 0
+["pdflatex"] 1749562842.89794 "/media/nico/Daten/Dokumente/01_Forschung/Expose-AiEngineering-Blueprints/Promotionsvorhaben.tex" "Promotionsvorhaben.pdf" "Promotionsvorhaben" 1749562844.07927 0
   "/etc/texmf/web2c/texmf.cnf" 1744054766.9196 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/media/nico/Daten/Dokumente/01_Forschung/Expose-AiEngineering-Blueprints/Promotionsvorhaben.tex" 1748437291.13798 14921 24f7670fa18787c10a3ab95eabe10076 ""
+  "/media/nico/Daten/Dokumente/01_Forschung/Expose-AiEngineering-Blueprints/Promotionsvorhaben.tex" 1749562841.48114 21452 1ad827cc564d449c9253af8996cb7caf ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1136768653 4484 b828043cbd581d289d955903c1339981 ""
@@ -182,10 +182,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1744054779.08984 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1744054857 8212945 efcaa1455bdc50109bc08414fe7af129 ""
-  "Promotionsvorhaben.aux" 1748437293.40804 5076 24e987a0003d45db26fb77c80884b858 "pdflatex"
-  "Promotionsvorhaben.bbl" 1748437292.47702 49 0eba253fc001332e731e8aba3f23127b "bibtex Promotionsvorhaben"
-  "Promotionsvorhaben.out" 1748437293.31504 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Promotionsvorhaben.tex" 1748437291.13798 14921 24f7670fa18787c10a3ab95eabe10076 ""
+  "Promotionsvorhaben.aux" 1749562843.86422 7407 2c42b8079ac5636519e13ce46ca913c7 "pdflatex"
+  "Promotionsvorhaben.bbl" 1749562842.89419 6929 5eb698fe794f77b9b1f122f5882360e5 "bibtex Promotionsvorhaben"
+  "Promotionsvorhaben.out" 1749562843.75822 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Promotionsvorhaben.tex" 1749562841.48114 21452 1ad827cc564d449c9253af8996cb7caf ""
   (generated)
   "Promotionsvorhaben.aux"
   "Promotionsvorhaben.log"

@@ -1,3 +1,72 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{enholmArtificialIntelligenceBusiness2022}
+I.~M. Enholm, E.~Papagiannidis, P.~Mikalef, and J.~Krogstie, ``Artificial {{Intelligence}} and {{Business Value}}: A {{Literature Review}},'' {\em Information Systems Frontiers}, vol.~24, no.~5, pp.~1709--1734, 2022.
+
+\bibitem{loureiroArtificialIntelligenceBusiness2021}
+S.~M.~C. Loureiro, J.~Guerreiro, and I.~Tussyadiah, ``Artificial intelligence in business: {{State}} of the art and future research agenda,'' {\em Journal of Business Research}, vol.~129, pp.~911--926, 2021.
+
+\bibitem{bhaleraoStudyBarriersBenefits2022}
+K.~Bhalerao, ``A study of barriers and benefits of artificial intelligence adoption in small and medium enterprise,'' {\em Academy of Marketing Studies Journal}, vol.~26, no.~1, 2022.
+
+\bibitem{fischerAISystemEngineering2020}
+L.~Fischer, L.~Ehrlinger, V.~Geist, R.~Ramler, F.~Sobiezky, W.~Zellinger, D.~Brunner, M.~Kumar, and B.~Moser, ``{{AI System Engineering}}---{{Key Challenges}} and {{Lessons Learned}},'' {\em Machine Learning and Knowledge Extraction}, vol.~3, no.~1, pp.~56--83, 2020.
+
+\bibitem{lwakatareDevOpsAIChallenges2020}
+L.~E. Lwakatare, I.~Crnkovic, and J.~Bosch, ``{{DevOps}} for {{AI}} -- {{Challenges}} in {{Development}} of {{AI-enabled Applications}},'' in {\em 2020 {{International Conference}} on {{Software}}, {{Telecommunications}} and {{Computer Networks}} ({{SoftCOM}})}, (Split, Croatia), pp.~1--6, IEEE, 2020.
+
+\bibitem{schonbergerArtificialIntelligenceSmall2023}
+M.~Sch{\"o}nberger, ``Artificial {{Intelligence}} for {{Small}} and {{Medium-sized Enterprises}}: {{Identifying}} {{Key Applications}} and {{Challenges}},'' {\em Journal of Business Management}, vol.~21, pp.~89--112, 2023.
+
+\bibitem{nascimentoUnderstandingDevelopmentProcess2019}
+E.~D.~S. Nascimento, I.~Ahmed, E.~Oliveira, M.~P. Palheta, I.~Steinmacher, and T.~Conte, ``Understanding {{Development Process}} of {{Machine Learning Systems}}: {{Challenges}} and {{Solutions}},'' in {\em 2019 {{ACM}}/{{IEEE International Symposium}} on {{Empirical Software Engineering}} and {{Measurement}} ({{ESEM}})}, (Porto de Galinhas, Recife, Brazil), pp.~1--6, IEEE, Sept. 2019.
+
+\bibitem{boschEngineeringAISystems2021}
+J.~Bosch, H.~H. Olsson, and I.~Crnkovic, ``Engineering {{AI Systems}}: {{A Research Agenda}},'' in {\em Advances in {{Systems Analysis}}, {{Software Engineering}}, and {{High Performance Computing}}} (A.~K. Luhach and A.~El{\c c}i, eds.), pp.~1--19, IGI Global, 2021.
+
+\bibitem{groteCaseStudyAI2023}
+M.~Grote and J.~Bogner, ``A {{Case Study}} on {{AI Engineering Practices}}: {{Developing}} an {{Autonomous Stock Trading System}},'' in {\em 2023 {{IEEE}}/{{ACM}} 2nd {{International Conference}} on {{AI Engineering}} -- {{Software Engineering}} for {{AI}} ({{CAIN}})}, pp.~145--157, 2023.
+
+\bibitem{symeonidisMLOpsDefinitionsTools2022}
+G.~Symeonidis, E.~Nerantzis, A.~Kazakis, and G.~A. Papakostas, ``{{MLOps}} - {{Definitions}}, {{Tools}} and {{Challenges}},'' in {\em 2022 {{IEEE}} 12th {{Annual Computing}} and {{Communication Workshop}} and {{Conference}} ({{CCWC}})}, (Las Vegas, NV, USA), pp.~0453--0460, IEEE, 2022.
+
+\bibitem{testiMLOpsTaxonomyMethodology2022}
+M.~Testi, M.~Ballabio, E.~Frontoni, G.~Iannello, S.~Moccia, P.~Soda, and G.~Vessio, ``{{MLOps}}: {{A Taxonomy}} and a {{Methodology}},'' {\em IEEE Access}, vol.~10, pp.~63606--63618, 2022.
+
+\bibitem{kreuzbergerMachineLearningOperations2023}
+D.~Kreuzberger, N.~K{\"u}hl, and S.~Hirschl, ``Machine {{Learning Operations}} ({{MLOps}}): {{Overview}}, {{Definition}}, and {{Architecture}},'' {\em IEEE Access}, vol.~11, pp.~31866--31879, 2023.
+
+\bibitem{steidlPipelineContinuousDevelopment2023}
+M.~Steidl, M.~Felderer, and R.~Ramler, ``The pipeline for the continuous development of artificial intelligence models---{{Current}} state of research and practice,'' {\em Journal of Systems and Software}, vol.~199, 2023.
+
+\bibitem{najafabadiAnalysisMLOpsArchitectures2024}
+F.~A. Najafabadi, J.~Bogner, I.~Gerostathopoulos, and P.~Lago, ``An {{Analysis}} of {{MLOps Architectures}}: {{A Systematic Mapping Study}},'' in {\em European {{Conference}} on {{Software Architecture}}}, vol.~14889, pp.~69--85, Springer Nature Switzerland, 2024.
+
+\bibitem{wostmannConceptionReferenceArchitecture2020}
+R.~Wostmann, P.~Schlunder, F.~Temme, R.~Klinkenberg, J.~Kimberger, A.~Spichtinger, M.~Goldhacker, and J.~Deuse, ``Conception of a {{Reference Architecture}} for {{Machine Learning}} in the {{Process Industry}},'' in {\em 2020 {{IEEE International Conference}} on {{Big Data}} ({{Big Data}})}, (Atlanta, GA, USA), pp.~1726--1735, IEEE, 2020.
+
+\bibitem{paakkonenExtendingReferenceArchitecture2020}
+P.~P{\"a}{\"a}kk{\"o}nen and D.~Pakkala, ``Extending reference architecture of big data systems towards machine learning in edge computing environments,'' {\em Journal of Big Data}, vol.~7, no.~1, pp.~1--29, 2020.
+
+\bibitem{vandenheuvelModelDrivenMLOpsIntelligent2020}
+W.-J. Van Den~Heuvel and D.~A. Tamburri, ``Model-{{Driven ML-Ops}} for {{Intelligent Enterprise Applications}}: {{Vision}}, {{Approaches}} and {{Challenges}},'' in {\em Business {{Modeling}} and {{Software Design}}} (B.~Shishkov, ed.), vol.~391, pp.~169--181, Cham: Springer International Publishing, 2020.
+
+\bibitem{heilandDesignPatternsAIbased2023}
+L.~Heiland, M.~Hauser, and J.~Bogner, ``Design {{Patterns}} for {{AI-based Systems}}: {{A Multivocal Literature Review}} and {{Pattern Repository}},'' in {\em 2023 {{IEEE}}/{{ACM}} 2nd {{International Conference}} on {{AI Engineering}} -- {{Software Engineering}} for {{AI}} ({{CAIN}})}, pp.~184--196, 2023.
+
+\bibitem{sharmaDesignPatternsMachine2019}
+R.~Sharma and K.~Davuluri, ``Design patterns for {{Machine Learning Applications}},'' in {\em 2019 3rd {{International Conference}} on {{Computing Methodologies}} and {{Communication}} ({{ICCMC}})}, (Erode, India), pp.~818--821, IEEE, 2019.
+
+\bibitem{cabralInvestigatingImpactSOLID2024}
+R.~Cabral, M.~Kalinowski, M.~T. Baldassarre, H.~Villamizar, T.~Escovedo, and H.~Lopes, ``Investigating the {{Impact}} of {{SOLID Design Principles}} on {{Machine Learning Code Understanding}},'' in {\em Proceedings of the {{IEEE}}/{{ACM}} 3rd {{International Conference}} on {{AI Engineering}} - {{Software Engineering}} for {{AI}}}, (Lisbon Portugal), pp.~7--17, ACM, 2024.
+
+\bibitem{takeSoftwareDesignPatterns2021}
+M.~Take, S.~Alpers, C.~Becker, C.~Schreiber, and A.~Oberweis, ``Software {{Design Patterns}} for {{AI-Systems}},'' {\em EMISA}, pp.~30--35, 2021.
+
+\bibitem{hevnerDesignScienceInformation2004a}
+{Hevner}, {March}, {Park}, and {Ram}, ``Design {{Science}} in {{Information Systems Research}},'' {\em MIS Quarterly}, vol.~28, no.~1, p.~75, 2004.
+
+\bibitem{ivarssonMethodEvaluatingRigor2011}
+M.~Ivarsson and T.~Gorschek, ``A method for evaluating rigor and industrial relevance of technology evaluations,'' {\em Empirical Software Engineering}, vol.~16, no.~3, pp.~365--395, 2011.
 
 \end{thebibliography}

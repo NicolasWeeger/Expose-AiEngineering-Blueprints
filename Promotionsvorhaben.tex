@@ -156,7 +156,7 @@
 \fancyhead[L]{\textit{\nouppercase{\leftmark}}}
 \fancyhead[R]{\thepage}
 \date{}
-\title{\textbf{Dissertationsvorhaben von Nicolas Weeger} 
+\title{\textbf{Dissertationsvorhaben von Nicolas Weeger}
 \\{Thema: AI Engineering Blueprints for practicable Machine Learning development}
 \\{\normalsize Hochschule für angewandte Wissenschaften Ansbach, Fakultät Technik}
 \\{\normalsize Erstbetreuer: Prof. Dr. Christian Uhl}\vspace{-.5em}
@@ -168,170 +168,60 @@
 \thispagestyle{empty}
 \section{Forschungsthema} \label{kap:motivation}
 
-Künstliche Intelligenz (KI) verändert zahlreiche Industrien
-und Anwendungsbereiche. Für Unternehmen ist es entscheidend
-KI-Techniken einzusetzen, um geschäftlichen Erfolg zu erzielen
-[1], [2]. Vor allem KMU können von der Einführung von
-Einsatz von KI-Techniken profitieren. Sie können ihre Fähigkeiten
-Fähigkeiten in bestimmten Bereichen, wie z.B. Kundenerfahrung,
-Produktionsüberwachung und Entscheidungsprozesse [3].
-Die firmeneigene Entwicklung von ML-Modellen zur Verwendung als
-oder innerhalb eines Produkts, genannt KI-Systeme, in einem organisatorischen
-Kontext kann zu einer Reihe von Herausforderungen führen [4]-[7]. Diese
-Dazu gehört das Verständnis für die Feinheiten der KI, einschließlich
-ihre funktionalen Anforderungen und Einsatzszenarien. Die
-Integration zusätzlicher Prozesse, wie z. B. Datengenerierung
-Datengenerierung und -vorverarbeitung oder Modelltraining und -einsatz, in den
-traditionellen Softwareentwicklungsprozess kann potenziell zu organisatorischen
- Promblemen führen, insbesondere für KMU [6]. Der ML
-Modellentwicklungszyklus umfasst zusätzliche Praktiken
-neben DevOps für die Daten und Modelle. Dazu gehören MLOps
-und DataOps-Techniken, die eine Kultur, Praktiken
-und Werkzeuge für den Umgang mit Daten und Modellen. Darüber hinaus muss die
-Systemarchitektur für KI-Systeme auf die Anforderungen des
-Anforderungen des zugrunde liegenden Modells abgestimmt sein. Training und Inferenz
-Trainings- und Inferenzumgebungen, sowie Datenspeicherung und Versionierung der
-der verschiedenen Artefakte müssen integriert werden, damit das
-System als KI-System zu funktionieren.
-Folglich erfordert die effektive Implementierung von KI-Systemen
-eine gut durchdachte Architektur, die auf die speziellen Anforderungen
-Anforderungen der beabsichtigten KI-Anwendung zugeschnitten ist. Diese Dissertation
-beschäftigt sich mit der Entwicklung von Blueprints, die auf die Anforderungen
-der verschiedenen Arten von KI und Entwicklungsstufen abgestimmt sind. Diese Blueprints verbinden 
-die Prinzipien von AI-Engineering, DevOps, MLOps und DataOps um die Herausforderungen, die mit der 
-Entwicklung von KI-Systemen verbunden sind, zu bewältigen. Folglich werden sie
-die Blueprints anwenden können, indem sie Referenzarchitekturen
-Referenzarchitekturen und geeignete Automatisierungsansätze für verschiedene
-Arten von KI implementieren.
-
+Künstliche Intelligenz (KI) verändert zahlreiche Industrien und Anwendungsbereiche. Für Unternehmen ist es von entscheidender Bedeutung, KI-Techniken einzusetzen, um geschäftlichen Erfolg zu erzielen \cite{enholmArtificialIntelligenceBusiness2022, loureiroArtificialIntelligenceBusiness2021}. 
+Der Einsatz dieser Techniken kann insbesondere für kleine und mittlere Unternehmen (KMU) vorteilhaft sein, da er ihnen die Möglichkeit bietet, ihre Kompetenzen in spezifischen Bereichen, wie beispielsweise der Kundenerfahrung, der Produktionsüberwachung und den Entscheidungsprozessen, zu optimieren \cite{bhaleraoStudyBarriersBenefits2022}.
+Die Entwicklung von Machine-Learning-Modellen (ML-Modellen) im eigenen Unternehmen, die innerhalb oder als Bestandteil eines Produkts zum Einsatz kommen und als KI-Systeme bezeichnet werden, kann in einem organisatorischen Kontext eine Reihe von Herausforderungen mit sich bringen. \cite{fischerAISystemEngineering2020,lwakatareDevOpsAIChallenges2020,schonbergerArtificialIntelligenceSmall2023, nascimentoUnderstandingDevelopmentProcess2019}. Dazu gehört das Verständnis für die Feinheiten der KI, einschließlich ihrer funktionalen Anforderungen und Einsatzszenarien. Die Integration zusätzlicher Prozesse, wie Datengenerierung und -vorverarbeitung oder Modelltraining und -einsatz, in den traditionellen Softwareentwicklungsprozess kann potenziell zu organisatorischen Problemen führen, insbesondere für KMU \cite{schonbergerArtificialIntelligenceSmall2023}. 
+Der ML-Modellentwicklungszyklus umfasst neben DevOps zusätzliche Praktiken für die Daten und Modelle. Hierzu zählen MLOps- und DataOps-Techniken, welche eine Kultur, Praktiken und Werkzeuge für den Umgang mit Daten und Modellen umfassen. 
+Darüber hinaus ist eine Abstimmung der Systemarchitektur für KI-Systeme auf die Anforderungen des zugrunde liegenden Modells erforderlich. Die Integration von Trainings- und Inferenzumgebungen sowie die Speicherung und Versionierung von Daten und verschiedenen Artefakten ist eine essentielle Komponente, um die Funktionalität des KI-Systems zu gewährleisten.
+Die effektive Implementierung von KI-Systemen erfordert demnach eine sorgfältig durchdachte Architektur, die auf die spezifischen Anforderungen der jeweiligen KI-Anwendung zugeschnitten ist.
+In dieser Dissertation wird die Entwicklung von Blueprints untersucht, die auf die Anforderungen der verschiedenen Arten von KI und deren Entwicklungsstufen abgestimmt sind. Die Blueprints verbinden die Prinzipien von AI-Engineering, DevOps, MLOps und DataOps um die Herausforderungen bei der Entwicklung von KI-Systemen zu bewältigen. KMUs können die Blueprints anwenden, indem sie Referenzarchitekturen und geeignete Automatisierungsansätze für verschiedene Arten von KI umsetzen und implementieren.
 
 \section{Stand der Forschung}
 \subsection{AI Engineering}
+Das Fachgebiet AI Engineering stellt eine Weiterentwicklung des Bereichs  Software Engineering dar. Es ist als ein aufstrebendes Feld zu betrachten, das sich aufgrund des raschen Wachstums im Bereich der maschinellen Lernens (ML) herausgebildet hat. Gemäß Gartners "AI Hype Cycle for 2024" (https://www.gartner.com/en/articles/hype-cycle-for-artifical-intelligence) befindet sich die Disziplin des AI Engineerings gegenwärtig auf dem Höhepunkt der Erwartungen. Laut Gartner bildet AI Engineering die Grundlage für die unternehmensweite Bereitstellung von KI und GenAI in großem Umfang. Den meisten Unternehmen mangelt es jedoch an den erforderlichen Daten-, Analytik- und Software-Grundlagen, um einzelne KI-Projekte produktiv zu nutzen und ein Portfolio von KI-Lösungen in großem Umfang zu betreiben. 
 
-AI-Engineering ist eine Weiterentwicklung des Bereichs Software
-Software-Engineering, und aufgrund des raschen Wachstums der ML-Entwicklungen
-ist es ein aufstrebendes Feld. Die KI-Technik befindet sich derzeit auf dem
-Höhepunkt der Erwartungen“, wie der von Gartner
-Gartners AI Hype Cycle für 2024 (https://www.gartner.com/en/articles/hype-cycle-for-artifcial-intelligence)
-Engineering ist die Grundlage für die unternehmensweite Bereitstellung von KI und
-GenAI in großem Umfang. Den meisten Unternehmen fehlen die Daten-, Analytik
-und Software-Grundlagen, um einzelne KI-Projekte in großem
-Produktion zu bringen - geschweige denn ein Portfolio von KI
-Lösungen in großem Umfang zu betreiben.“ Mehr als ein Dutzend Projekte wurden untersucht in
-[8] untersucht, bei denen die Herausforderungen der KI-Technik zu Problemen bei der
-ML-Modelle zu produzieren. Die Studie ergab, dass die Mehrheit
-Unternehmen, die Modelle für maschinelles Lernen entwickeln, auf
-Schwierigkeiten haben, wenn sie versuchen, diese in die Produktion zu überführen. 
+In \cite{boschEngineeringAISystems2021} wurden mehr als ein Dutzend Projekte untersucht und festgestellt, dass die Herausforderungen von AI Engineering zu Problemen im produktiven Betrieb von KI-Projekten führen. Die vorliegende Studie kommt zu dem Schluss, dass ein signifikanter Anteil der Unternehmen, die sich mit der Entwicklung von Modellen für maschinelles Lernen befassen, bei dem Versuch, diese in die Produktion zu überführen, mit Herausforderungen konfrontiert sind. Die Studie präsentiert eine Forschungsagenda und einen Überblick über die Fragestellungen, die in dieser Richtung adressiert werden müssen. 
 
-Sie bieten eine Forschungsagenda und einen Überblick über die Fragen, die
-die in dieser Richtung angegangen werden müssen. [9] weisen darauf hin, dass zwar
-der Bereich der Software-Engineering-Forschung bereits ausgiebig
-diskutiert wurde, KI-Engineering jedoch viel weniger behandelt wurde. Nur
-eine begrenzte Anzahl von Publikationen präsentieren konkrete Erfahrungen
-Erfahrungen mit der Anwendung von KI-Engineering-Prinzipien. Sie
-wählten zehn AI-Engineering-Praktiken in mehreren Kategorien aus der
-aus der Literatur und wendeten sie auf eine Beispielimplementierung an
-um die Praktiken und ihre Systemarchitektur zu bewerten.
-Darüber hinaus haben Gespräche und Fragebögen, insbesondere
-und Fragebögen, insbesondere mit KMUs, haben gezeigt, dass der Wunsch besteht, KI
-KI in ihre Systeme zu implementieren. Allerdings hängt der Erfolg ihrer Modell
-Modells hängt jedoch von der Bewältigung der oben genannten
-oben genannten Herausforderungen ab. So kann die Anwendung von KI-Engineering
-kann Unternehmen helfen, die Entwicklung, den Einsatz
-und den Betrieb von Modellen für maschinelles Lernen zu optimieren.
+Wie die Studie \cite{groteCaseStudyAI2023} darlegt, dargelegt, wurde der Bereich des Software Engineerings bereits umfassend wissenschaftlich erörtert, während das Themengebiet des AI Engineerings weit weniger intensiv untersucht wurde. Es existiert eine begrenzte Anzahl an Publikationen, die konkrete Erfahrungen mit der Anwendung von AI Engineering-Prinzipien präsentieren. Die Autoren wählten zehn AI Engineering-Praktiken aus mehreren Kategorien aus der Literatur aus und wendeten sie auf eine Beispielimplementierung an, um die Praktiken und ihre Systemarchitektur zu bewerten. Darüber hinaus haben Gespräche und Fragebögen, insbesondere mit KMUs, gezeigt, dass der Wunsch besteht, KI in ihre Systeme zu implementieren. Der Erfolg ist jedoch davon abhängig, ob die zuvor genannten Herausforderungen bewältigt werden können. Die Anwendung von AI Engineering-Praktiken kann für Unternehmen einen entscheidenden Vorteil darstellen, indem sie die Entwicklung, den Einsatz und den Betrieb von Modellen für maschinelles Lernen optimiert.
 
-\subsection{MLOps}
-Die Idee von MLOps ist die Bereitstellung von Techniken und Werkzeugen für
-den Einsatz und Betrieb von KI-Systemen bereitzustellen [10]. Das Ziel
-ist es, eine Strategie für die Lösung von realen Problemen mit
-den Einsatz von ML-Modellen. Mehrere Studien untersuchen verschiedene
-Literatur in diesem Bereich und bieten Pipelines, Taxonomien, Werkzeuge,
-Methoden und Herausforderungen in diesem Bereich [11]-[13].
-[14] führen eine systematische Mapping-Studie für MLOps
-Architekturen durch und zeigen 35 Architekturkomponenten auf, de-
-beschreiben verschiedene Architekturvarianten für unterschiedliche Anwendungsfälle und
-stellen gängige Werkzeuge für diese Architekturkomponenten zur Verfügung.
-
+\subsection{MLOps} 
+Die Idee hinter MLOps besteht in der Bereitstellung von Techniken und Werkzeugen für den Einsatz und den Betrieb von KI-Systemen \cite{symeonidisMLOpsDefinitionsTools2022}. Das Ziel besteht darin, eine Strategie zur Lösung realer Problemen beim Einsatz von ML-Modellen zu entwickeln. In mehreren Studien werden verschiedene Literaturquellen in diesem Bereich untersucht und Pipelines, Taxonomien, Werkzeuge, Methoden und Herausforderungen in diesem Bereich angeboten \cite{testiMLOpsTaxonomyMethodology2022,kreuzbergerMachineLearningOperations2023,steidlPipelineContinuousDevelopment2023}. 
+In der Publikation \cite{najafabadiAnalysisMLOpsArchitectures2024} wird eine systematische Mapping-Studie für MLOps-Architekturen durchgeführt eine Anzahl von 35 Architekturkomponenten aufgezeigt. Es werden verschiedene Architekturvarianten für unterschiedliche Anwendungsfälle beschrieben und gängige Werkzeuge für diese Architekturkomponenten bereitgestellt.
 
 \subsection{Weitere relevante Forschungsarbeiten}
-In [15] wurde eine Referenzarchitektur für die spezifischen Anwendungsfälle in der
-der Prozessindustrie vorgestellt, die sich mit Edge Devices befasst.
-Sie demonstrierten die Architektur durch die Implementierung einer Fallstudie
-Fallstudie für einen realen Anwendungsfall und bewies die Funktionalität
-mit dieser Anwendung.
-[16] entwickelte eine Referenzarchitektur zur Erleichterung der Nutzung
-von Big Data in Edge Computing ML-Techniken zu erleichtern. Sie
-verschiedene Ansichten über die Architektur der Modellentwicklung
-Entwicklung und Einsatz für diesen speziellen Anwendungsfall.
-Eine andere Studie [17] stellt eine Vision für „disziplinierte, wiederholbare
-wiederholbare und transparente modellgetriebene Entwicklung und Machine
-Learning Operations (MLOps) von intelligenten Unternehmensapplikationen
-cations“. Sie stellen ein dreistufiges Metamodell für die modell
-modellbasierte Entwicklung von AI/ML-Blueprints auf Basis intelligenter
-Anwendungsarchitektur.
+In \cite{wostmannConceptionReferenceArchitecture2020} wurde eine Referenzarchitektur für spezifische Anwendungsfälle in der Prozessindustrie vorgestellt, die sich mit Edge Devices befasst. Die Autoren demonstrierten die Architektur durch die Implementierung einer Fallstudie für einen realen Anwendungsfall und bewiesen die Funktionalität mit dieser Anwendung. 	
+In \cite{paakkonenExtendingReferenceArchitecture2020} wurde eine Referenzarchitektur zur Erleichterung der Nutzung von Big-Data-Techniken im Edge-Computing-ML entwickelt. Die Studie präsentiert eine Analyse Architektur der Modellentwicklung und deren Anwendung für diesen speziefischen Anwendungsfall. 
+Eine weitere Studie \cite{vandenheuvelModelDrivenMLOpsIntelligent2020} stellt eine Vision für „disziplinierte, wiederholbare und transparente modellgetriebene Entwicklung und Machine Learning Operations (MLOps) von intelligenten Unternehmensapplikationen“ vor. Die Autoren präsentieren ein dreistufiges Metamodell für die modellbasierte Entwicklung von KI/ML-Blueprints auf Basis intelligenter Anwendungsarchitekturen.
 
-Mit Blick auf Software und Architektur werden Entwurfsmuster für
-KI-basierte Systeme in mehreren Studien diskutiert [18]-[21].
-Sie geben einen Überblick über Entwurfsmuster, die für KI-Anwendungsfälle angepasst oder
-für KI-Anwendungsfälle, und zeigen die Anwendung und die
-und die daraus resultierenden Vorteile bei der Entwicklung von Modellen für maschinelles
-Modelle.
+In mehreren Studien werden Entwurfsmuster für KI-basierte Systeme mit Blick auf Software und Architektur diskutiert \cite{heilandDesignPatternsAIbased2023,sharmaDesignPatternsMachine2019,cabralInvestigatingImpactSOLID2024,takeSoftwareDesignPatterns2021}. Es wird ein Überblick über Entwurfsmuster gegeben, die für KI-Anwendungsfälle angepasst sind. Zudem werden die Anwendung und die daraus resultierenden Vorteile bei der Entwicklung von Modellen für maschinelles Lernen aufgezeigt.
 
 \subsection{Zusammenfassung des Standes der Forschung}
-Zusammenfassend lässt sich sagen, dass die Literatur Einblicke in die Wichtigkeit
-Bedeutung, mögliche Architekturen und Prinzipien für KI-Engineering
-und MLOps-Praktiken. Allerdings ist die Anwendung dieser
-Erkenntnisse konzentriert sich derzeit auf einige wenige Referenzarchitekturen
-in bestimmten Bereichen, wie z. B. Big Data oder Edge Devices. Andere
-Studien konzentrieren sich auf die Definition von Architekturen und Mustern und beweisen
-ihre Anwendbarkeit in Fallstudien.
-Die Prinzipien des AI-Engineering bilden die Grundlage
-die Grundlage für die Entwicklung der in diesem Papier vorgeschlagenen Blaupausen.
-MLOps-Pipelines und -Tools sowie bestehende Referenzarchitekturen
-Referenzarchitekturen und Frameworks werden eingesetzt, um die Entwicklung
-Entwicklung von KI-Systemen zu unterstützen und so den Prozess zu rationalisieren, zu standardisieren
-und beschleunigen den Prozess. Software- und Architekturentwurfsmuster
-werden zur Beschreibung der Entwicklung verwendet, um die
-um die nicht-funktionalen Anforderungen (NFRs) für die verschiedenen
-Entwürfe zu erfüllen. Der Einsatz in Feldprojekten ermöglicht ein flexibles,
-hochautomatisierten Einsatz und ressourcenschonenden Betrieb
-für unterschiedliche Anforderungen in KMUs.
-
-
+Zusammenfassend lässt sich sagen, dass die Literatur Einblicke in die Bedeutung, mögliche Architekturen und Prinzipien für AI Engineering und MLOps-Praktiken ermöglicht. Die Anwendung dieser Erkenntnisse ist derzeit jedoch auf einige wenige Referenzarchitekturen in spezifischen Bereichen wie Big Data oder Edge Devices beschränkt. Andere Studien fokussieren sich auf die Definition von Architekturen und Mustern und demonstrieren ihre Anwendbarkeit in Fallstudien. Die in dieser Dissertation entwickelten Blueprints basieren auf den Prinzipien des AI Engineering, welche die Grudnlage für deren Entwicklung bilden. Im Rahmen der Entwicklung von KI-Systemen finden MLOps-Pipelines, -Tools sowie bestehende Referenzarchitekturen und Frameworks Anwendung. Ihr Einsatz dient der Unterstützung des Entwicklungsprozesses, der damit rationalisiert, standardisiert und beschleunigt wird. 
+Software- und Architekturentwurfsmuster finden bei der Beschreibung der Entwicklung Anwendung, um die nicht-funktionalen Anforderungen (NFRs) für die verschiedenen Entwürfe zu erfüllen. Der Einsatz in Feldprojekten erlaubt eine flexible, hochautomatisierte Anwendung sowie einen ressourcenschonenden Betrieb für unterschiedliche Anforderungen in KMUs.
 
 \section{Ziele und wissenschaftlicher Beitrag der Promotion}
-
+Die Entwicklung von KI-Systemen ist zunehmend komplexer und unterstreicht damit die wachsende Bedeutung von AI-Engineering und MLOps-Techniken. Kleine und mittlere Unternehmen sehen sich mit beträchtlichen Herausforderungen konfrontiert, wenn es darum geht, künstliche Intelligenz (KI) in ihre Produkte oder Prozesse zu integrieren. Unternehmen mangelt es vielfach an den erforderlichen Ressourcen und dem entsprechenden Fachwissen, um KI-Systeme zu entwickeln, einzusetzen und zu betreiben, die auf ihre spezifischen Probleme zugeschnitten sind. In Anbetracht der mangelnden Forschung hinsichtlich der Implementierung von AI Engineering-Praktiken, insbesondere in KMU, fokussiert sich diese Dissertation auf die Entwicklung von Blueprints für die Konzeption von Modellen für maschinelles Lernen (ML) unter Einsatz von AI-Engineering und MLOps-Praktiken. Die vorliegenden Blueprints dienen KMU als Fundament zur Entwicklung von KI-Systemen. Mittels der Bereitstellung von Referenzarchitekturen sowie Architekturen und adäquater Automatisierungsansätze für diverse Arten von ML wird der Betrieb von KI-Systemen ermöglicht. Die Effizienz der Blueprints wird durch ihre Anwendung auf einer Reihe von Feldprojekten bewertet. Aus dem vorliegenden Prozess resultieren weitere Anforderungen sowie zusätzliche Entwicklungsschleifen, die darauf abzielen, die Verallgemeinerung zu erreichen. Die Vorteile des Einsatzes der Blueprints für Organisationen werden durch Beobachtung des Prozesses der Entwicklung von ML-Modellen und durch Interviews mit den Entwicklern evaluiert. 
 
 \section{Methodik}
-Um die Entwürfe zu untersuchen und ihre Brauchbarkeit für Unternehmen zu validieren
-für Unternehmen zu überprüfen, wird die Methode der Design Science Research (DSR)
-[22], [23], eingesetzt werden. Mit Hilfe von Interviews und einer
-einer umfassenden Literaturrecherche werden die Herausforderungen und
-Anforderungen von KMU identifiziert und Verbesserungspotenziale
-Verbesserungsmöglichkeiten ermittelt.
-Basierend auf diesen Erkenntnissen können Geschäftsanforderungen
-in Zusammenarbeit mit den relevanten Interessengruppen festgelegt werden,
-die sich an deren spezifischen Bedürfnissen orientieren. Durch die Integration der fachlichen
-Anforderungen mit den Anforderungen der verschiedenen Arten von
-der eingesetzten KI, z. B. Algorithmen, Datenspeicherung, Kom
-und NFRs, kann ein umfassendes Rahmenwerk
-Rahmenwerk entwickelt werden, das die Verifizierung der entworfenen
-Artefakte zu erleichtern. Anschließend können diese einer iterativen
-Tests und Validierung unterzogen werden. Schließlich können die Artefakte in den
-den Projekten der Beteiligten als Feldtest eingesetzt werden. Dieser Prozess wird dann
-Dieser Prozess wird solange wiederholt, bis die Anforderungen fnalisiert sind und die
-Artefakte die Anforderungen nachweislich erfüllen. Der Prozess wird
-in mehreren Projekten wiederholt, um die Ergebnisse zu verallgemeinern und
-sie für KMU so anwendbar wie möglich zu machen.
-
+Im Rahmen der Untersuchung der Brauchbarkeit der Entwürfe für Unternehmen erfolgt die Validierung mittels der Methode des Design Science Research (DSR) \cite{hevnerDesignScienceInformation2004a, ivarssonMethodEvaluatingRigor2011}. Die Herausforderungen und Anforderungen von KMU werden mit Hilfe von Interviews und einer umfassenden Literaturrecherche identifiziert. Zudem werden Verbesserungspotenziale und -möglichkeiten ermittelt.  Basierend auf diesen Erkenntnissen besteht die Möglichkeit, Geschäftsanforderungen in Zusammenarbeit mit den relevanten Interessengruppen festzulegen, wobei sich diese an deren spezifischen Bedürfnissen orientieren sollten. Die Integration der fachlichen Anforderungen mit den Anforderungen der verschiedenen KI-Typen, wie Algorithmen, Datenspeicherung, Kom und NFRs, ermöglicht die Entwicklung eines umfassenden Rahmenwerks. Dieses Rahmenwerk dient dazu, die Verifizierung der entworfenen Artefakte zu erleichtern. Im Anschluss besteht die Möglichkeit, die betreffenden Elemente einer iterativen Prüfung und Validierung zu unterziehen. Schließlich können die Artefakte in den Projekten der Beteiligten als Feldtest eingesetzt werden. Der Prozess wird in der Folge solange iteriert, bis die Anforderungen finalisiert sind und die Artefakte die Anforderungen nachweislich erfüllen. Der Prozess wird in mehreren Projekten wiederholt, um die Ergebnisse zu verallgemeinern und sie für KMU so anwendbar wie möglich zu machen.
 
 \section{Arbeits- und Zeitplan}
+In der ersten Phase der Dissertation wurde die Definition des Themas und der Ziele durchgeführt. Die interdisziplinäre Ausrichtung des Themas, mit den Hauptbestandteilen in Softwarearchitektur und KI, verlangte eine umfassende Literaturrecherche in den Breichen AI-Engineering, MLOps und Softwarearchitektur. Diese wurde in den ersten sechs Monaten der Dissertation durchgeführt. 
+
+Die zweite Phase konzentrierte sich auf die Erarbeitung eines Papers, das die Notwendigkeit und die Ziele einer Forschung in der Richtung von AI-Engineering Blueprints für KMU beschreibt. Dieses Paper wird auf dem Software Architecture for Machine Learning (SAML) Workshop der International Conference on Software Architecture (ICSA) 2025 in Odense, Dänemark veröffentlicht und im April 2025 präsentiert.   
+
+In der dritten Phase wird die Entwicklung von Blueprints für verschiedene Anforderungen beim Training von Time Series Analysis Modellen durchgeführt. Diese Blueprints werden auf die spezifischen Anforderungen von Forschungsgruppen und KMU abgestimmt und sollen eine Grundlage für die Entwicklung von KI-Systemen in diesem Bereich bieten. Die Entwicklung der Blueprints wird in enger Zusammenarbeit mit den beteiligten Forschungsgruppen und Unternehmen erfolgen, um sicherzustellen, dass sie den praktischen Anforderungen entsprechen. Die Blueprints beinhalten Empfehlungen und Validierungenverschiedener Architekturen, Prozesse und Werkzeuge, die für die Entwicklung von KI-Systemen erforderlich sind. Darunter beispielsweise Datenhaltung, Daten- und Modellversionierung oder Experimenttracking. Diese Phase wird voraussichtlich bis Ende 2025 andauern.
+
+In der vierten Phase werden Blueprints für die Verwendung von generativer KI auf Unternehmensdaten entwickelt. Dabei soll die Entwicklung von RAG Systemen und Agentic RAG Systemen, basierend auf Unternehmensdaten und -prozessen, im Fokus stehen. Diese Blueprints sollen eine Grundlage für die Entwicklung von KI-Systemen bieten, die generative KI-Techniken nutzen. Sie konzentrieren sich auf Entwicklung, Architetkur und Bereitstellung sowie den Betrieb von produktiven Use-Cases in KMUs. Die Validierung der Blueprints erfolgt durch die Anwendung in Feldprojekten, um sicherzustellen, dass sie den praktischen Anforderungen entsprechen. Diese Phase wird voraussichtlich teilweise parallel zur dritten Phase beginnen und bis Oktober 2026 andauern.
+
+Die fünfte und finale Phase der Dissertation wird die Zusammenfassung der Ergebnisse und die Erstellung der Dissertation umfassen. In dieser Phase werden die Ergebnisse der vorherigen Phasen zusammengefasst und in einem kohärenten Dokument präsentiert. Die Dissertation wird die entwickelten Blueprints, ihre Anwendung in Feldprojekten und die daraus gewonnenen Erkenntnisse detailliert beschreiben. Diese Phase wird voraussichtlich bis April 2026 andauern.
+
 
 \section{Zuordnung zum Promotionskolleg REDIG}
+In dieser Dissertation werden die Prinzipien des AI-Engineering, MLOps und Softwarearchitektur kombiniert, um Blueprints für die Entwicklung von KI-Systemen zu erstellen. Diese Blueprints zielen darauf ab, KMU bei der effektiven Integration von KI-Techniken in ihre Produkte und Prozesse zu unterstützen. Darüber hinaus wird die Dissertation durch die Anwendung der entwickelten Blueprints in Feldprojekten validiert. Dies trägt zur Digitalisierung, Automatisierung und somit Effizienzsteeigerung in KMU bei und fördert die Entwicklung von KI-Systemen, die auf die spezifischen Bedürfnisse und Anforderungen von KMU zugeschnitten sind. Die Arbeit leistet somit einen wertvollen Beitrag zur Forschung im Bereich AI-Engineering und bietet gleichzeitig praktische Lösungen für KMU.
 
-
-% \newpage
-\bibliography{deepeeg}
+\newpage
+\bibliography{ML_blueprints_bibliography}
 
 \end{document}
 
