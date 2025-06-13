@@ -3,9 +3,10 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Promotionsvorhaben.aux
 The style file: ieeetr.bst
 Database file #1: ML_blueprints_bibliography.bib
+Warning--I didn't find a database entry for "weeger"
 You've used 23 entries,
             1876 wiz_defined-function locations,
-            644 strings with 10526 characters,
+            645 strings with 10532 characters,
 and the built_in function-call counts, 7766 in all, are:
 = -- 765
 > -- 317
@@ -44,3 +45,4 @@ warning$ -- 0
 while$ -- 86
 width$ -- 25
 write$ -- 241
+(There was 1 warning)
