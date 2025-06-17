@@ -69,4 +69,7 @@ M.~Take, S.~Alpers, C.~Becker, C.~Schreiber, and A.~Oberweis, ``Software {{Desig
 \bibitem{ivarssonMethodEvaluatingRigor2011}
 M.~Ivarsson and T.~Gorschek, ``A method for evaluating rigor and industrial relevance of technology evaluations,'' {\em Empirical Software Engineering}, vol.~16, no.~3, pp.~365--395, 2011.
 
+\bibitem{weegerTowards2025}
+N.~Weeger, A.~Stiehl, J.~Von~Kistowski, S.~Geißelsöder, and C.~Uhl, ``Towards {Practicable} {Machine} {Learning} {Development} {Using} {AI} {Engineering} {Blueprints},'' in {\em 2025 {IEEE} 22nd {International} {Conference} on {Software} {Architecture} {Companion} ({ICSA}-{C})}, (Odense, Denmark), pp.~525--528, IEEE, Mar. 2025.
+
 \end{thebibliography}

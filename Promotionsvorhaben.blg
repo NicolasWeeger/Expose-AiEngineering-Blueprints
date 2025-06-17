@@ -3,46 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Promotionsvorhaben.aux
 The style file: ieeetr.bst
 Database file #1: ML_blueprints_bibliography.bib
-Warning--I didn't find a database entry for "weeger"
-You've used 23 entries,
+You've used 24 entries,
             1876 wiz_defined-function locations,
-            645 strings with 10532 characters,
-and the built_in function-call counts, 7766 in all, are:
-= -- 765
-> -- 317
+            652 strings with 10888 characters,
+and the built_in function-call counts, 8163 in all, are:
+= -- 803
+> -- 334
 < -- 0
-+ -- 113
-- -- 90
-* -- 590
-:= -- 1072
-add.period$ -- 23
-call.type$ -- 23
-change.case$ -- 23
++ -- 119
+- -- 95
+* -- 623
+:= -- 1124
+add.period$ -- 24
+call.type$ -- 24
+change.case$ -- 24
 chr.to.int$ -- 0
-cite$ -- 23
-duplicate$ -- 397
-empty$ -- 721
-format.name$ -- 90
-if$ -- 1884
+cite$ -- 24
+duplicate$ -- 418
+empty$ -- 758
+format.name$ -- 95
+if$ -- 1980
 int.to.chr$ -- 0
-int.to.str$ -- 23
-missing$ -- 23
-newline$ -- 72
-num.names$ -- 27
-pop$ -- 80
+int.to.str$ -- 24
+missing$ -- 24
+newline$ -- 75
+num.names$ -- 28
+pop$ -- 85
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 284
+skip$ -- 299
 stack$ -- 0
-substring$ -- 600
-swap$ -- 173
+substring$ -- 632
+swap$ -- 182
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 86
-width$ -- 25
-write$ -- 241
-(There was 1 warning)
+while$ -- 90
+width$ -- 26
+write$ -- 252
